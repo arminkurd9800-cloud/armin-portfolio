@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>سایت آرمین | طراحی سایت</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #172033;
+      line-height: 1.8;
+    }
+
+    nav {
+      background: white;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    nav h2 {
+      color: #2563eb;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4b5563;
+      margin: 0 7px;
+    }
+
+    .hero {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 80px 30px;
+      text-align: center;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    .hero span {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      margin: 15px 0;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #6b7280;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 35px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 7px 25px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      margin-bottom: 12px;
+    }
+
+    section p {
+      color: #6b7280;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card,
+    .work {
+      padding: 20px;
+      border: 1px solid #e5e7eb;
+      border-radius: 15px;
+      margin-top: 15px;
+    }
+
+    .card h3 {
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+    }
+
+    @media (max-width: 650px) {
+      nav {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .hero {
+        margin: 15px;
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      section {
+        margin: 15px;
+        padding: 25px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>آرمین</h2>
+
+    <div>
+      <a href="#about">درباره من</a>
+      <a href="#skills">مهارت‌ها</a>
+      <a href="#works">نمونه‌کارها</a>
+      <a href="#contact">تماس</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <span>طراحی سایت مدرن 🚀</span>
+
+    <h1>سلام، من آرمین هستم 👋</h1>
+
+    <p>
+      طراحی سایت زیبا، سریع و حرفه‌ای
+      با HTML و CSS
+    </p>
+
+    <a href="#works" class="button">
+      مشاهده نمونه‌کارها
+    </a>
+  </section>
+
+  <section id="about">
+    <h2>درباره من</h2>
+
+    <p>
+      من در حال یادگیری طراحی سایت هستم
+      و هدفم ساخت سایت‌های حرفه‌ای برای مشتری‌هاست.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>مهارت‌های من</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>HTML</h3>
+        <p>ساختار صفحات وب</p>
+      </div>
+
+      <div class="card">
+        <h3>CSS</h3>
+        <p>طراحی و زیباسازی سایت</p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>نمایش مناسب در موبایل</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="works">
+    <h2>نمونه‌کارهای من</h2>
+
+    <div class="work">
+      <h3>💻 سایت شخصی</h3>
+      <p>یک سایت معرفی شخصی مدرن و زیبا</p>
+    </div>
+
+    <div class="work">
+      <h3>🚀 لندینگ پیج</h3>
+      <p>صفحه معرفی محصول یا خدمات</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>تماس با من</h2>
+
+    <p>
+      برای سفارش طراحی سایت با من در تماس باشید.
+    </p>
+
+    <a href="tel:09000000000" class="button">
+      📞 تماس با من
+    </a>
+  </section>
+
+  <footer>
+    © 2026 آرمین
+  </footer>
+
+</body>
+  </html>ت
